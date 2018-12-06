@@ -3,21 +3,21 @@
   <welcome-file-list>
         <welcome-file>home.jsp</welcome-file>
     </welcome-file-list>
-  <display-name>HomeInventory1</display-name>
+  <display-name>HomeInventory</display-name>
  <!-- Add Spring MVC DispatcherServlet as front controller -->
 	<servlet>
-        <servlet-name>HomeInventory1</servlet-name>
+        <servlet-name>HomeInventory</servlet-name>
         <servlet-class>
                 org.springframework.web.servlet.DispatcherServlet
         </servlet-class>
         <init-param>
        		<param-name>contextConfigLocation</param-name>
-       		<param-value>/WEB-INF/HomeInventory1-servlet.xml</param-value>
+       		<param-value>/WEB-INF/HomeInventory-servlet.xml</param-value>
     		</init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>HomeInventory1</servlet-name>
+        <servlet-name>HomeInventory</servlet-name>
         <url-pattern>/</url-pattern> 
     </servlet-mapping>
     <error-page>
